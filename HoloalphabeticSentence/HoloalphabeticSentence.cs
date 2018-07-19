@@ -14,7 +14,7 @@ namespace HoloalphabeticSentence
             var unique = reg.Replace(input.ToUpper(), "").ToCharArray().Distinct();
             if (unique.Count() == 26)
             {
-                count = true;
+                count =  true;
             }
             return count;
         }
